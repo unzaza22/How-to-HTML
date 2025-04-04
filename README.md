@@ -73,13 +73,13 @@ W3 School
   </body>
   </html>
   ```
-  <hr>
+<hr>
 
   ### คำประกาศ <!DOCTYPE>(The <!DOCTYPE> Declaration)
   ```html
   <!DOCTYPE html>
   ```
-  <hr>
+<hr>
 
   ### หัวข้อ HTML(HTML Headings)
   ```html
@@ -87,20 +87,20 @@ W3 School
   <h2>This is heading 2</h2>
   <h3>This is heading 3</h3>
   ```
-  <hr>
+<hr>
 
   ### ย่อหน้า HTML(HTML Paragraphs)
   ```html
   <p>This is a paragraph.</p>
   <p>This is another paragraph.</p>
   ```
-  <hr>
+<hr>
 
   ### ลิงค์ HTML(HTML Links)
   ```html
   <a href="https://www.w3schools.com">This is a link</a>
   ```
-  <hr>
+<hr>
 
   ### รูปภาพ HTML(HTML Images)
   ```html
@@ -123,7 +123,7 @@ W3 School
   <a href="https://www.w3schools.com">Visit W3Schools</a>
   ```
   [HTML Links chapter](https://www.w3schools.com/html/html_links.asp)
-  <hr>
+<hr>
 </details>
 
 <details>
@@ -144,7 +144,7 @@ W3 School
   <img src="img_girl.jpg" alt="Girl with a jacket">
   ```
   [HTML Images chapter](https://www.w3schools.com/html/html_images.asp)
-  <hr>
+<hr>
 </details>
 
 <details>
@@ -154,7 +154,7 @@ W3 School
   <p style="color:red;">This is a red paragraph.</p>
   ```
   [HTML Styles chapter](https://www.w3schools.com/html/html_styles.asp)
-  <hr>
+<hr>
 </details>
 
 <details>
@@ -180,7 +180,7 @@ W3 School
   </html>
   ```
   [HTML Language Code Reference](https://www.w3schools.com/tags/ref_language_codes.asp)
-  <hr>
+<hr>
 </details>
 
 <details>
@@ -192,7 +192,7 @@ W3 School
   ```html
   <p title="I'm a tooltip">This is a paragraph.</p>
   ```  
-  <hr>
+<hr>
 </details>
 
 
@@ -211,3 +211,271 @@ W3 School
   ```  
 </details>
 <hr><hr>
+
+
+## การใช้งานหัวข้อ(HTML Headings)
+<details>
+  <summary>HTML Headings</summary>
+
+  ```html
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+  ```
+<hr>  
+</details>
+
+<details>
+  <summary>กำหนดขนาดอักษรหัวข้อ(Bigger Headings)</summary>
+
+  ```html
+  <h1 style="font-size:60px;">Heading 1</h1>
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>HTML Tag Reference</summary>
+
+  | Tag | Description |
+  | --- | ---|
+  | `<html>` | กำหนดให้ว่าเป็น HTML |
+  | `<body>` | กำหนดส่วนเนื้อหา |
+  | `<h1> to <h6>` | กำหนดหัวข้อ |
+  [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+</details>
+<hr><hr>
+
+
+## วิธีใช้งานย่อหน้า(HTML Paragraphs)
+<details>
+  <summary>HTML Paragraphs</summary>
+
+  ```html
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>การแสดงผล(HTML Display)</summary>
+  ย่อหน้าจะตัดเว้นวรรคออกไม่ว่างจะใช้เยอะแค่ไหน
+  <br>
+  input:
+
+  ```html
+  <p>
+  This paragraph
+  contains a lot of lines
+  in the source code,
+  but the browser
+  ignores it.
+  </p>
+
+  <p>
+  This paragraph
+  contains         a lot of spaces
+  in the source         code,
+  but the        browser
+  ignores it.
+  </p>
+  ```  
+  output:
+    <p>
+  This paragraph
+  contains a lot of lines
+  in the source code,
+  but the browser
+  ignores it.
+  </p>
+
+  <p>
+  This paragraph
+  contains         a lot of spaces
+  in the source         code,
+  but the        browser
+  ignores it.
+  </p>
+<hr>
+</details>
+
+<details>
+  <summary>ขีดเส้นแนวนอน(HTML Horizontal Rules)</summary>
+
+  ```html
+  <hr>
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>ขึ้นบรรทัดใหม่(HTML Line Breaks)</summary>
+  input:
+
+  ```html
+  <p>This is<br>a paragraph<br>with line breaks.</p>
+  ```  
+  output:
+  <p>This is<br>a paragraph<br>with line breaks.</p>
+<hr>
+</details>
+
+<details>
+  <summary>ย่อหน้าแบบไม่กำหนดรูปแบบ(The HTML &lt;pre&gt; Element)</summary>
+  &lt;pre&gt; จะไม่สนใจการเว้นวรรค
+
+  ```html
+  <pre>
+    My Bonnie lies over the ocean.
+
+    My Bonnie lies over the sea.
+
+    My Bonnie lies over the ocean.
+
+    Oh, bring back my Bonnie to me.
+  </pre>
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>HTML Tag Reference</summary>
+
+  | Tag | Description |
+  | --- | ---|
+  | `<p>` | กำหนดเป็น ย่อหน้า |
+  | `<hr>` | ขีดเส้นแนวนอน |
+  | `<br>` | ขึ้นบรรทัดใหม่ |
+  | `<pre>` | กำหนดข้อความแบบไม่จัดรูปแบบ |
+</details>
+<hr><hr>
+
+
+## กำหนดรูปแบบ HTML(HTML Styles)
+กำหนดองค์ประกอบ เช่น color, font, size
+<details>
+  <summary>กำหนดรูปแบบ(The HTML Style Attribute)</summary>
+
+  ```html
+  <tagname style="property:value;">
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>สีพื้นหลัง(Background Color)</summary>
+  input:
+
+  ```html
+  <body style="background-color:powderblue;">
+
+  <h1 style="background-color:powderblue;">This is a heading</h1>
+  <p style="background-color:tomato;">This is a paragraph.</p>
+
+  </body>
+  ```  
+  output:
+  <body style="background-color:powderblue;">
+
+  <h1 style="background-color:powderblue;">This is a heading</h1>
+  <p style="background-color:tomato;">This is a paragraph.</p>
+
+  </body>
+<hr>
+</details>
+
+<details>
+  <summary>สีข้อความ(Text Color)</summary>
+  input:
+
+  ```html
+  <h1 style="color:blue;">This is a heading</h1>
+  <p style="color:red;">This is a paragraph.</p>
+  ```  
+  output:
+  <h1 style="color:blue;">This is a heading</h1>
+  <p style="color:red;">This is a paragraph.</p>
+<hr>
+</details>
+
+<details>
+  <summary>กำหนดรูปแบบ Font(Fonts)</summary>
+  input:
+
+  ```html
+  <h1 style="font-family:verdana;">This is a heading</h1>
+  <p style="font-family:courier;">This is a paragraph.</p>
+  ```  
+  output:
+  <h1 style="font-family:verdana;">This is a heading</h1>
+  <p style="font-family:courier;">This is a paragraph.</p>
+<hr>
+</details>
+
+<details>
+  <summary>ขนาด Font(Text Size)</summary>
+  input:
+
+  ```html
+  <h1 style="font-size:300%;">This is a heading</h1>
+  <p style="font-size:160%;">This is a paragraph.</p>
+  ```  
+  output:
+  <h1 style="font-size:300%;">This is a heading</h1>
+  <p style="font-size:160%;">This is a paragraph.</p>
+<hr>
+</details>
+
+<details>
+  <summary>ตำแหน่ง Font(Text Alignment)</summary>
+  input:
+
+  ```html
+  <h1 style="text-align:center;">Centered Heading</h1>
+  <p style="text-align:center;">Centered paragraph.</p>
+  ```  
+  output:
+  <h1 style="text-align:center;">Centered Heading</h1>
+  <p style="text-align:center;">Centered paragraph.</p>
+</details>
+<hr><hr>
+
+
+## รูปแบบ Font(HTML Formatting)
+<details>
+  <summary>รูปแบบองค์ประกอบ(HTML Formatting Elements)</summary>
+
+  | Tag | Description |
+  | --- | ---|
+  | `<b>` | ตัวหนา |
+  | `<strong>` | ตัวหนาและสำคัญกว่า |
+  | `<i>` | ตัวเอียง |
+  | `<em>` | ตัวเอียงแต่สำคัญกว่า |
+  | `<mark>` | Highlight |
+  | `<small>` | กำหนดข้อความให้เล็ก |
+  | `<del>` | ขีดเส้นกลางทับ Font |
+  | `<ins>` | ขีดเส้นใต้ |
+  | `<sub>` | ตัวห้อย |
+  | `<sup>` | ยกกำลัง |
+</details>
+<hr><hr>
+
+
+<!-- Template -->
+# Template
+<details>
+  <summary>&lt; &gt;</summary>
+
+  ```html
+  ```  
+</details>
+
+|  |  |  |
+| --- | ---| --- |
+| `<>` |  | `<>` |
+| `<>` |  | `<>` |
+| `<>` |  |  |
