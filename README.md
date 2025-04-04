@@ -53,8 +53,9 @@ W3 School
 | 2016 |	W3C Candidate Recommendation: HTML 5.1 | 
 | 2017 | W3C Recommendation: HTML5.1 2nd Edition | 
 | 2017 | W3C Recommendation: HTML5.2 |
+<hr>
 </details>
-<hr><hr>
+<hr>
 
 
 ## พื้นฐาน HTML(HTML Basic)
@@ -106,13 +107,14 @@ W3 School
   ```html
   <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
   ```
+<hr>
 </details>
-<hr><hr>
+<hr>
 
 
 ## องค์ประกอบ HTML(HTML Elements)
 [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
-<hr><hr>
+<hr>
 
 
 ## HTML Attributes
@@ -209,8 +211,9 @@ W3 School
   ```html
   <p title="John 'ShotGun' Nelson">
   ```  
+<hr>
 </details>
-<hr><hr>
+<hr>
 
 
 ## การใช้งานหัวข้อ(HTML Headings)
@@ -246,8 +249,9 @@ W3 School
   | `<body>` | กำหนดส่วนเนื้อหา |
   | `<h1> to <h6>` | กำหนดหัวข้อ |
   [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+<hr>
 </details>
-<hr><hr>
+<hr>
 
 
 ## วิธีใช้งานย่อหน้า(HTML Paragraphs)
@@ -351,8 +355,9 @@ W3 School
   | `<hr>` | ขีดเส้นแนวนอน |
   | `<br>` | ขึ้นบรรทัดใหม่ |
   | `<pre>` | กำหนดข้อความแบบไม่จัดรูปแบบ |
+<hr>
 </details>
-<hr><hr>
+<hr>
 
 
 ## กำหนดรูปแบบ HTML(HTML Styles)
@@ -441,8 +446,9 @@ W3 School
   output:
   <h1 style="text-align:center;">Centered Heading</h1>
   <p style="text-align:center;">Centered paragraph.</p>
+<hr>
 </details>
-<hr><hr>
+<hr>
 
 
 ## รูปแบบ Font(HTML Formatting)
@@ -461,8 +467,9 @@ W3 School
   | `<ins>` | ขีดเส้นใต้ |
   | `<sub>` | ตัวห้อย |
   | `<sup>` | ยกกำลัง |
+<hr>
 </details>
-<hr><hr>
+<hr>
 
 
 <!-- Template -->
