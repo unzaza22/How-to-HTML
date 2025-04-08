@@ -472,6 +472,230 @@ W3 School
 <hr>
 
 
+## การอ้างอิ้ง(HTML Quotations)
+<details>
+  <summary>การอ้างอิ้งแบบบล็อก(HTML &lt;blockquote&gt; for Quotations)</summary>
+
+    ```html
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote>
+    ``` 
+<hr> 
+</details>
+
+<details>
+  <summary>การอ้างอิ้งแบบสั้น(HTML &lt;q&gt; for Short Quotations)</summary>
+  input:
+
+  ```html
+  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+  ```  
+  output:
+  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<hr>
+</details>
+
+<details>
+  <summary>การอ้างอิ้งงานแบบแสดงการใช้คำย่อ(HTML &lt;abbr&gt; for Abbreviations)</summary>
+  input:
+
+  ```html
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+  ```  
+  output:
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<hr>
+</details>
+
+<details>
+  <summary>การอ้างแบบที่อยู่(HTML <&lt;address&gt; for Contact Information)</summary>
+  input:
+
+  ```html
+  <address>
+  Written by John Doe.<br>
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+  </address>
+  ```  
+  output:
+  <address>
+  Written by John Doe.<br>
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+  </address>
+<hr>
+</details>
+
+<details>
+  <summary>การอ้างอิ้งของหัวข้อชิ้นงาน(HTML &lt;cite&gt; for Work Title)</summary>
+  input:
+
+  ```html
+  <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+  ``` 
+  output: 
+  <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<hr>
+</details>
+
+<details>
+  <summary>กำหนดทิศทางข้อความ(HTML &lt;bdo&gt; for Bi-Directional Override)</summary>
+  input:
+
+  ```html
+  <bdo dir="rtl">This text will be written from right to left</bdo>
+  ```
+  output:  
+  <bdo dir="rtl">This text will be written from right to left</bdo>
+<hr>
+</details>
+
+<details>
+  <summary>HTML Quotation and Citation Elements</summary>
+
+  | Tag | Description |
+  | --- | ---|
+  | `<abbr>` | การอ้างอิ้งแบบใช้คำย่อ |
+  | `<address>` | การอ้างอิ้งแบบที่อยู่ |
+  | `<bdo>` | กำหนดทิศทางข้อความ ทิศทางจริงๆเลย |
+  | `<blockquote>` | การอ้างอิ้งแบบเอกสาร |
+  | `<cite>` | การอ้างอิ้งชื่อผลงาน |
+  | `<q>` | การอ้างอิ้งแบบสั้น |
+<hr>
+</details>
+<hr>
+
+
+## ความคิดเห็น(HTML Comments)
+<details>
+  <summary>แท็กความคิดเห็น(HTML Comment Tag)</summary>
+
+  ```html
+  <!-- Write your comments here -->
+
+  <p>This is a paragraph.</p>
+  <!--
+  <p>Look at this cool image:</p>
+  <img border="0" src="pic_trulli.jpg" alt="Trulli">
+  -->
+  <p>This is a paragraph too.</p>
+
+  <p>This <!-- great text --> is a paragraph.</p>
+  ```  
+<hr>
+</details>
+<hr>
+
+
+## การใช้งานสี(HTML Colors)
+<details open>
+  <summary>สี(Colors)</summary>
+  <details>
+    <summary>สีพื้นหลัง(Background Color)</summary>
+    input:
+
+    ```html
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+    <p style="background-color:Tomato;">Lorem ipsum...</p>
+    ```  
+    output:
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+    <p style="background-color:Tomato;">Lorem ipsum...</p>
+  <hr>
+  </details>
+
+  <details>
+    <summary>สีตัวอักษร(Text Color)</summary>
+    input:
+
+    ```html
+    <h1 style="color:Tomato;">Hello World</h1>
+    <p style="color:DodgerBlue;">Lorem ipsum...</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+    ```  
+    output:
+    <h1 style="color:Tomato;">Hello World</h1>
+    <p style="color:DodgerBlue;">Lorem ipsum...</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+  <hr>
+  </details>
+
+  <details>
+    <summary>สีกรอบ(Border Color)</summary>
+    input:
+
+    ```html
+    <h1 style="border:2px solid Tomato;">Hello World</h1>
+    <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border:2px solid Violet;">Hello World</h1>
+    ```  
+    output:
+    <h1 style="border:2px solid Tomato;">Hello World</h1>
+    <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border:2px solid Violet;">Hello World</h1>
+  <hr>
+  </details>
+
+  <details>
+    <summary>ค่าของสี(Color Values)</summary>
+    input:
+
+    ```html
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+    ```  
+    output:
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+  <hr>
+  </details>
+<hr>
+</details>
+
+<details>
+  <summary>RGB</summary>
+  rgb(red, green, blue)<br><br>
+
+  rgb(60, 60, 60)<br>
+  rgb(240, 240, 240)
+
+  rgba(red, green, blue, alpha)<br>
+  alpha = ความโปร่งใส
+<hr>
+</details>
+
+<details>
+  <summary>HEX</summary>
+  #rrggbb <br><br>
+
+  #404040<br>
+  #f8f8f8
+<hr>
+</details>
+
+<details>
+  <summary>HSL</summary>
+  hsl(hue, saturation, lightness)<br><br>
+
+  hsla(hue, saturation, lightness, alpha)
+</details>
+
+
 <!-- Template -->
 # Template
 <details>
