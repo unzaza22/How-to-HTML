@@ -693,6 +693,182 @@ W3 School
   hsl(hue, saturation, lightness)<br><br>
 
   hsla(hue, saturation, lightness, alpha)
+<hr>
+</details>
+<hr>
+
+
+## HTML CSS
+<details>
+  <summary>HTML Styles - CSS</summary>
+
+  ### การใช้งาน CSS(Using CSS)
+  มี 3 วิธี
+  1. Inline - การใช้ `style` ใน HTML element
+  2. Internal - การใช้ `<style>` ใน `<head>` section
+  3. External - การใช้ `<link>` เพื่อใช้งานกับ CSS file ที่สร้างเอง
+
+  ### Inline
+  ```html
+  <h1 style="color:blue;">A Blue Heading</h1>
+
+  <p style="color:red;">A red paragraph.</p>
+  ``` 
+
+  ### Internal CSS
+  การใช้งาน `<style>` ใน `<head>` Section
+  ```html
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  body {background-color: powderblue;}
+  h1   {color: blue;}
+  p    {color: red;}
+  </style>
+  </head>
+  <body>
+
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+
+  </body>
+  </html>
+  ``` 
+
+  ### External CSS
+  เพิ่ม `<link>` ใน `<head>` Section
+  ```html
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+
+  </body>
+  </html>
+  ``` 
+  "styles.css":
+  ```css
+  body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
+  ``` 
+ <hr> 
+</details>
+
+<details>
+  <summary>CSS Color, Fonts and Sizes</summary>
+  
+  `color` - สีของสิ่งต่างๆ<br>
+  `font-family` - กำหนดรูปแบบของ font<br>
+  `font-size` - กำหนดขนาดของ font
+  ```html
+  <head>
+  <style>
+  h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+  }
+  p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+  }
+  </style>
+  </head>
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>กรอบข้อความ(CSS Border)</summary>
+
+  ```css 
+    p {
+    border: 2px solid powderblue;
+  }
+  ```  
+<hr>   
+</details>
+
+<details>
+  <summary>ความห่างด้านในของกรอบ(CSS Padding)</summary>
+
+  ```css
+  p {
+    border: 2px solid powderblue;
+    padding: 30px;
+  }
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>ความห่างด้านนอกของกรอบ(CSS Margin)</summary>
+
+  ```css
+  p {
+    border: 2px solid powderblue;
+    margin: 50px;
+  }
+  ```  
+<hr>
+</details>
+
+<details>
+  <summary>Link to External CSS</summary>
+  สามารถใช้ Full URL หรือ path ในการใช้งานได้
+
+  ```html
+  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+  <link rel="stylesheet" href="/html/styles.css">
+
+  <link rel="stylesheet" href="styles.css">
+  ```  
+  [HTML File Paths](https://www.w3schools.com/html/html_filepaths.asp)
+<hr>
+</details>
+
+<details>
+  <summary>Chapter Summary</summary>
+
+  - ใช้ `style` เพื่อกำหนดแบบ inline
+  - ใช้ `<style>` เพื่อกำหนดแบบ internal CSS
+  - ใช้ `<link>` เพื่อกำหนดแบบ external CSS
+  - ใน `<head>` section กำหนด &lt;style&gt; and &lt;link&gt;
+  - ใช้ `color` ในการกำหนดสีข้อความ
+  - ใช้ `font-family` ในการกำหนดรูปแบบข้อความ
+  - ใช้ `font-size` ในการกำหนดขนาดข้อความ
+  - ใช้ `border` เพื่อสร้างกรอบของข้อความ
+  - ใช้ `padding` เพื่อกำหนดความห่างของกรอบด้านในข้อความ
+  - ใช้ `margin` เพื่อกำหนดความห่างของกรอบด้านนอกข้อความ
+
+  [CSS Tutorial](https://www.w3schools.com/css/default.asp)
+<hr>
+</details>
+
+<details>
+  <summary>HTML Style Tags</summary>
+
+  | Tag | Description |
+  | --- | ---|
+  | `<style>` | กำหนดรูปแบบ |
+  | `<link>` | กำหนด URL ภายนอกหรือ path |
+  [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+<hr>
 </details>
 
 
