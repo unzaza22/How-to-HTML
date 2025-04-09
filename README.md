@@ -870,6 +870,87 @@ W3 School
   [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
 <hr>
 </details>
+<hr>
+
+
+## HTML Links
+<details>
+<summary>Links</summary>
+
+### HTML Links - Syntax
+```html
+<a href="url">link text</a>
+
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+```
+<hr>
+
+### HTML Links - The target Attribute
+`target` ใช้ในการกำหนดเป้าหมายว่าจะทำอะไร
+- `_self` - เปิดใน Tab เดียวกัน
+- `_blank` - เปิดใน Tab ใหม่
+- `_parent` - เปิดใน parent frame
+- `_top` - เปิดเป็น full body
+```html
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+```
+<hr>
+
+### Absolute URLs vs. Relative URLs
+```html
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+```
+
+### HTML Links - Use an Image as a Link(ใช้รูปภาพในการ Link)
+```html
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+``` 
+<hr>
+
+### Link to an Email Address
+ใช้ `mailto:` เพื่อลิงค์ไปที่ email
+```html
+<a href="mailto:someone@example.com">Send email</a>
+```
+<hr>
+
+### Button as a Link(ลิงค์ด้วยปุ่ม)
+ใช้ `mailto:` เพื่อลิงค์ไปที่ email
+```html
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+```
+[JavaScript](https://www.w3schools.com/js/default.asp)
+<hr>
+
+### Link Title
+```html
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+```
+<hr>
+
+### Chapter Summary
+- ใช้ `<a>` กำหนดลิงค์
+- ใช้ `href` กำหนดที่อยู่ลิงค์
+- ใช้ `target` กำหนดลักษณะการเปิดลิงค์
+- ใช้ `<img>` กำหนดรูปภาพและกำหนดลิงค์ใน `<a>`
+- ใช้ `mailto:` เพื่อกำหนดลิงค์ไปที่ Email
+<hr>
+
+### HTML Link Tag
+| Tag | Description |
+| --- | ---|
+| `<a>` | กำหนดลิงค์ |
+[HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+</details>
+<hr>
 
 
 <!-- Template -->
