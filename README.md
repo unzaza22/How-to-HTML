@@ -25,11 +25,13 @@ W3 School
 
 ### องค์ประกอบ HTML(What is an HTML Element?)
 องค์ประกอบจะต้องเริ่มด้วย tag, เนื้อหา, และตามด้วยปิด tag
+
 | Start tag | Element content | Endtag |
 | --- | ---| --- |
 | `<h1>` | หัวข้อแรก | `</h1>` |
 | `<p>` | ย่อหน้าแรก | `</p>` |
 | `<br>` | none | none |
+
 > Note: องค์ประกอบบ้างอย่างไม่จำเป็นต้องมีเนื้อหาและปิด tag เช่น `<br>`
 <hr>
 
@@ -949,21 +951,274 @@ W3 School
 | --- | ---|
 | `<a>` | กำหนดลิงค์ |
 [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+<hr>
+</details>
+
+<details>
+<summary>Link Colors</summary>
+
+### HTML Link Colors
+
+พื้นฐานของการตั้งค่า
+- ลิงค์ที่ยังไม่เข้าชมเป็นสีน้ำเงิน
+- ลิงค์ที่เข้าชมแล้วจะเป็นสีม่วง
+- ลิงค์ที่ใช้งานอยู่จะเป็นสีแดง
+```html
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+``` 
+<hr>
+
+### Link Buttons
+
+```html
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+``` 
+[CSS Tutorial](https://www.w3schools.com/css/default.asp) 
+<hr>
+
+### HTML Link Tags
+
+| Tag | Description |
+| --- | ---|
+| `<a>` | ลิงค์ |
+<hr>
+</details>
+
+<details>
+<summary>Link Bookmarks</summary>
+
+### Create a Bookmark in HTML
+
+ให้ใช้ `id` ในการสร้าง bookmark
+```html
+<h2 id="C4">Chapter 4</h2>
+```  
+จากนั้นเพิ่มลิงค์ bookmark ในหน้าเพจ
+```html
+<a href="#C4">Jump to Chapter 4</a>
+``` 
+หรือสามารถเพิ่มลิงค์จากหน้าอื่นได้ด้วย
+```html
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+```  
+<hr>
+</details>
+
+<details>
+<summary>Chapter Summary</summary>
+
+- ใช้ `id` (id="value") กำหนดจุด bookmark ในหน้าเพจ
+- ใช้ `href` (href="#value") กำหนดลิงค์ bookmark
+<hr>
+</details>
+
+<details>
+<summary>HTML Link Tags</summary>
+
+| Tag | Description |
+| --- | ---|
+| `<a>` | ลิงค์ |
+<hr>
 </details>
 <hr>
 
 
-<!-- Template -->
+## HTML Images
+<details>
+<summary>Images</summary>
+
+```html
+<img src="pic_trulli.jpg" alt="Italian Trulli">
+
+<img src="img_girl.jpg" alt="Girl in a jacket">
+
+<img src="img_chania.jpg" alt="Flowers in Chania">
+``` 
+<hr>
+
+### HTML Images Syntax
+การใช้งาน `<img>` ต้องมี attributes 2 อย่าง
+
+- src - กำหนด path ของรูปภาพ
+- alt - กำหนดชื่อของรูปภาพ
+<hr>
+
+### The src Attribute
+กำหนดที่อยู่ของรูปภาพ
+```html
+<img src="img_chania.jpg" alt="Flowers in Chania">
+```
+<hr>
+
+### The alt Attribute
+กำหนดคำอธิบายรูปภาพจะแสดงแทนถ้าภาพใช้งานไม่ได้
+```html
+<img src="img_chania.jpg" alt="Flowers in Chania">
+
+<img src="wrongname.gif" alt="Flowers in Chania">
+```  
+<hr>
+
+### Image Size - Width and Height
+สามารถใช้ `style` กำหนดความยาวและกว้างของรูปภาพ
+```html
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+``` 
+หรือใช้ใน `width` และ `height` ใน attributes ได้เลย
+```html
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+``` 
+หน่วยของขนาดรูปภาพจะเป็น pixels
+<hr>
+
+### Width and Heaight, or Style?
+`width`,`hright` และ `style` สามารถทำงานได้ทั้งหมดใน HTML
+แต่ยังไงก็ตาม `style` จะไม่ทำให้รูปภาพเปลี่ยนไปจากเดิมแต่เพิ่มขนาด
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+</body>
+</html>
+```  
+<hr>
+
+### Images on Another Server/Website
+สามารถใช้ (full) URL ในการระบุบน `src` ได้
+```html
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+``` 
+<hr>
+
+### Animated Images
+HTML ใช้ GIF ได้
+```html
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+``` 
+<hr>
+
+### Image as a Link
+ถ้าจะลิงค์รูปภาพ ใช้ `<img>` ใน tag `<a>`
+```html
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+``` 
+<hr>
+
+### Image Floating
+ใช้ CSS `float` เพื่อให้รูปภาพไปอยู่ข้างข้อความได้ โดยการกำหนด left หรือ right
+```html
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+```  
+[CSS Float Tutorial](https://www.w3schools.com/css/css_float.asp)
+<hr>
+
+### Comman Image Formats
+นี้คือประเภทของไฟล์รูปภาพที่ Browser ทั้งหมดรองรับ
+| Abbreviation | File Format | Formats |
+| --- | --- | --- |
+| APNG | Animation เคลื่อนไหว | .apng |
+| GIF | รูปภาพเคลื่อนไหว | .gif |
+| ICO | icon | .ico .cur |
+| JPEG | รูปภาพ | .jpg .jpeg .jfif .pjpeg .pjp |
+| PNG | รูปภาพ | .png |
+| SVG | รูปภาพ | .svg |
+<hr>
+
+### Chapter Summary
+- ใช้ `<img>` เพื่อกำหนดรูปภาพ
+- ใช้ `src` เพื่อกำหนด URL หรือ path ของรูปภาพ
+- ใช้ `alt` เพื่อกำหนดข้อความรูปภาพในกรณีที่ภาพไม่แสดง
+- ใช้ `width` และ `height` เพื่อกำหนดขนาดของภาพ
+- ใช้ `float` เพื่อกำหนดให้แสดงอยู่ข้างข้อความด้วย left หรือ right
+<hr>
+
+### HTML IMage Tags
+| Tag | Descriotion |
+| --- | ---|
+| `<img>` | กำหนดรูปภาพ |
+| `<map>` | กำหนดแผนที่ภาพ |
+| `<area>` | กำหนดแผนที่ภาพที่คลิกได้ |
+| `<picture>` | กำหนดรูปภาพแบบหลายอัน |
+[HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+<hr>
+</details>
+<hr>
+
+
+
+
+<!-- 
 # Template
 <details>
-  <summary>&lt; &gt;</summary>
+<summary></summary>
 
-  ```html
-  ```  
+
 </details>
 
-|  |  |  |
-| --- | ---| --- |
-| `<>` |  | `<>` |
-| `<>` |  | `<>` |
-| `<>` |  |  |
+```html
+
+```  
+
+|  |  |
+| --- | ---|
+| `<>` |  |
+| `<>` |  |
+| `<>` |  |
+
+&lt; &gt;
+-->
