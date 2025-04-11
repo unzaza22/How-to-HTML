@@ -1187,7 +1187,7 @@ The image will float to the left of the text.</p>
 - ใช้ `float` เพื่อกำหนดให้แสดงอยู่ข้างข้อความด้วย left หรือ right
 <hr>
 
-### HTML IMage Tags
+### HTML Image Tags
 | Tag | Descriotion |
 | --- | ---|
 | `<img>` | กำหนดรูปภาพ |
@@ -1195,9 +1195,136 @@ The image will float to the left of the text.</p>
 | `<area>` | กำหนดแผนที่ภาพที่คลิกได้ |
 | `<picture>` | กำหนดรูปภาพแบบหลายอัน |
 [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
-<hr>
+<hr><hr>
 </details>
+
+<details>
+<summary>Image Map</summary>
+tag HTML `&lt;map&gt;` แผนที่รูปภาพ สามารถกำหนดให้คลิกได้เฉพาะจุดด้วย `&lt;area&gt;` tag เพื่อกำหนดพื้นที่
+
+```html
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+```  
+### The Image
+ใช้ `<img>` tag แล้วเพิ่ม `usemap` ใน attribute
+```html
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+```
+value `usermap` ต้องเริ่มด้วย # แล้วตามด้วยชื่อ
+
+### Create Image Map
+ใช้ `<map>` เพื่อสร้างแผนที่รูปภาพ และ link ภาพด้วย `name` ใน attribute
+```html
+<map name="workmap">
+``` 
+
+### The Areas
+สามารถกำหนดพื้นที่ในการคลิกบนรูปภาพได้ด้วย `<area>` element
+
+#### Shape
+สามารถเลิอกรูปทรงในการกำหนดพื้นที่ได้
+- `rect` - สี่เหลี่ยม
+- `circle` - วงกลม
+- `poly` - polygon รูปทรงหลายเหลี่ยม
+- `default` - ทั้งรูป
+แล้วต้องกำหนดพื้นที่ในการคลิกด้วย
+
+### Shape="rect"
+การใช้งาน `shape="rect"` จะกำหนดพื้นที่แบบ แกน x, แกน y<br>
+จากภาพกำหนดจุดแรก `34,44`
+
+![alt text](image-2.png)
+
+และกำหนด `270,350`
+
+![alt text](image-3.png)
+
+ตอนนี้เราได้สร้างจุดที่สามารถคลิกได้บนรูปภาพแล้ว
+```html
+<area shape="rect" coords="34, 44, 270, 350" href="computer.htm">
+```  
+พื้นที่ ที่สามารถคลิกได้ แล้วถูกส่งไปที่หน้า "computer.htm"
+
+![alt text](image-4.png)
 <hr>
+
+### Shape="circle"
+ถ้าต้องการใช้รูปทรงวงกลม ให้หาพื้นที่จุดตรงกลางของจุดนั้น
+
+`337,300`
+
+![alt text](image-5.png)
+
+แล้วกำหนด radias ของวงกลม
+
+`44` pixels
+
+![alt text](image-6.png)
+
+ตอนนี้เราได้สร้างพื้นที่รูปทรงวงกลมที่คลิกได้แล้ว
+```html
+<area shape="circle" coords="337, 300, 44" href="coffee.htm">
+``` 
+ตอนนี้ ถ้าคลิกจะถูกส่งไปที่หน้า "coffee.htm"
+<hr>
+
+### Shape="poly"
+`shape="poly"` สามารถกำหนดจุดได้หลายจุด โดยเกิดจากเส้รตรงหลายอันมาร่วมกัน<br>
+เราต้องหาจุด x และ y ทั้งหมดของเป้าหมาย
+
+![alt text](image-7.png)
+```html
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+``` 
+พื้นที่ ที่สามารถคลิกได้แล้วจะถูกส่งไปที่หน้า "croissant.htm"
+
+![alt text](image-8.png)
+
+### Image Map and JavaScript
+พื้นที่คลิกยังสามารถเรียกใช้งาน JavaScript ได้ด้วย
+
+เพิ่ม `onclick` event เข้าไปใน `<area>` element เพื่อใช้งาน JavaScript
+```html
+<map name="workmap">
+  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+```  
+<hr>
+
+### Chapter Summary
+- ใช้ `<map>` element กำหนดภาพแบบกำหนดพื้นที่
+- ใช้ `<area>` element กำหนดพื้นที่ ที่ต้องการคลิกบนรูปภาพ
+- ใช้ `usemap` attribute ของ `<img>` element เพื่อชี้ไปที่รูปภาพ
+<hr>
+
+### HTML Image Tags
+| Tag | Description |
+| --- | ---|
+| `<img>` | กำหนดรูปภาพ |
+| `<map>` | กำหนดภาพแบบพื้นที่ |
+| `<area>` | กำหนดจุดที่คลิกได้บนภาพ |
+| `<picture>` | กำหนดว่าเป็นหลายภาพ |
+<hr><hr>
+</details>
+
+<details>
+<summary>Background Images</summary>
+
+
+</details>
+
 
 
 
