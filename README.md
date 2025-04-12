@@ -1322,7 +1322,129 @@ function myFunction() {
 <details>
 <summary>Background Images</summary>
 
+### Background Image on an HTML element
+เพิ่มภาพพื้นหลังข้อความได้ ด้วยการใช้ `style` attribute และ CSS `background-image`
+```html
+<p style="background-image: url('img_girl.jpg');">
+``` 
+สามารถระบุโดยใน `<style>` element ใน `<head>` section ได้
+```html
+<style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+```
+<hr>
 
+### Background Image on a Page
+ถ้าต้องการใส่พื้นหลังของหน้าเพจ ต้องระบุใน `body` element
+```html
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>
+``` 
+<hr>
+
+### Background Repeat
+หากใช้ภาพพื้นหลังที่เล็กเกินไป จะทำการวางภาพซ้ำๆ ทั้งแนวนอนและแนวตั้ง
+![alt text](image-9.png)
+เราสามารถกำหนดไม่ให้ทำภาพซ้ำได้ด้วยการใช้ `background-repeat` property แล้วใส่ `no-repeat`
+```html
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+``` 
+<hr>
+
+### Background Cover
+ถ้าต้องการให้ภาพครอบคลุมทั้งหน้าเพจ ให้ใช้ `background-size` property ใส่ `cover`
+
+แล้วถ้าต้องการให้ภาพพื้นหลังครอบคลุมทั้งเพจอยู่เสมอหรือ fix พื้นหลัง ให้ใช้ `background-attachment` property ใส่ `fixed`
+
+ภาพจะไม่มีการยืดและยึดสัดส่วนเดิม
+```html
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+``` 
+<hr>
+
+### Background Stretch
+หนกต้องการให้ภาพขยายทั้งหน้าเพจ โดยไม่สนขนาดเดิมของภาพ ให้ใช้ `background-size` ใส่ `100% 100%`
+![alt text](image-10.png)
+```html
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+```  
+<hr>
+
+### Learn More CSS
+เรียนรู้การใช้งานพื้นหลังเพิ่มเตอมได้ที่ [CSS Background Tutorial](https://www.w3schools.com/css/css_background.asp)
+<hr><hr>
+</details>
+
+<details>
+<summary>HTML &lt;picture&gt; Element</summary>
+
+`<picture>` สามารถช่วยให้คุณแสดงรูปที่ขนาดหน้าจอแตกต่างกันได้
+
+### The HTML &lt;picture&gt; Element
+
+`picture` element สามารถใช้ `<source>` element กำหนดได้มากกว่า 1 อัน สามารถกำหนดภาพมาใช้งานด้วย `srcset` attribute 
+
+`<source>` element ใช้ `media` attribute ในการกำหนดการแสดงของอุปกรณ์
+
+```html
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+``` 
+<hr>
+
+### When to use the Picture Element
+
+มี 2 อย่างในการใช้งาน `<picture>`
+1. Bandwidth<br>
+หากใช้งานขนาดหน้าจอเล็ก ไม่จำเป็นต้องใช้ภาพขนาดใหญ่ `<source>` จะแมตกับขนาดของภาพ
+2. Format Support
+Browser หรืออุปกรณ์ไม่ได้รองรับรูปภาพทั้งหมด เมื่อใช้ `<picture>` element สามารถเพิ่มรูปภาพทั้งหมดได้แล้ว browser หรืออุปกรณ์จะหา format แรกที่รู้จัก
+```html
+<picture>
+  <source srcset="img_avatar.png">
+  <source srcset="img_girl.jpg">
+  <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture>
+``` 
+<hr>
+
+### HTML Image Tag
+| Tag | Description |
+| --- | ---|
+| `<img>` | กำหนดรูปภาพ |
+| `<map>` | กำหนดภาพแบบพื้นที่ |
+| `<area>` | กำหนดจุดที่คลิกได้บนภาพ |
+| `<picture>` | กำหนดว่าเป็นหลายภาพ |
+[HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+<hr><hr>
 </details>
 
 
