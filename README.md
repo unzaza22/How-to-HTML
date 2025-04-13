@@ -1446,6 +1446,90 @@ Browser หรืออุปกรณ์ไม่ได้รองรับร
 [HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
 <hr><hr>
 </details>
+<hr>
+
+
+## HTML Favicon
+<details>
+<summary>How To Add a Favicon in HTML</summary>
+
+สามารถกำหนด favicon หรือสร้าง favicon เองได้ด้วย https://www.favicon.cc
+![alt text](image-11.png)
+
+หากต้องการเพิ่ม favicon ให้บันทึกลงใน directory หรือสร้าง folder ที่เรียกรูปภาพ แล้วบันทึก favicon ลงใน folder ชื่อทั่วไปคือ "favicon.ico"
+
+ต่อไป เพิ่ม `<link>` element ลงในไฟล์ "index.html" หลัง `<title>`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+``` 
+
+บันทึกไฟล์ "index.html" แล้ว reload browser จะแสดง favicon ขึ้นมา
+<hr>
+
+### Favicon File Format Support
+ไฟล์ที่ browser รับรองรูปภาพ favicon
+
+| Browser | ICO | PNG | GIF | JPEG | SVG |
+| --- | --- | --- | --- | --- | --- |
+| Edge | Yes | Yes | Yes | Yes | Yes |
+| Chrome | Yes | Yes | Yes | Yes | Yes |
+| Firefox | Yes | Yes | Yes | Yes | Yes |
+| Opera | Yes | Yes | Yes | Yes | Yes |
+| Safari | Yes | Yes | Yes | Yes | Yes |
+<hr>
+
+### Chapter Summary
+- ใช้ `<link>` element เพื่อเพิ่ม favicon
+<hr>
+
+### HTML Link Tag
+| Tag | Description |
+| --- | --- |
+| `<link>` | กำหนดการใช้งาน document และ external resource |
+[HTML Tag Reference](https://www.w3schools.com/tags/default.asp)
+<hr>
+</details>
+<hr>
+
+
+## HTML Page Title
+<details>
+<summary>The Title Element</summary>
+
+`<title>` element จะเพิ่มชื่อ page
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Tutorial</title>
+</head>
+<body>
+
+The content of the document......
+
+</body>
+</html>
+```
+ชื่อจะถูกแสดงอยู่ใน tab บน browser
+![alt text](image-12.png)
+<hr>
+</details>
+<hr>
+
+
 
 
 
