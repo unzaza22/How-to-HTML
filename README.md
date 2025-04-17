@@ -1,14 +1,48 @@
 # [HTML Tutorial](https://www.w3schools.com/html/default.asp)
+W3 Schools
 - [HTML Introduction](https://www.w3schools.com/html/html_intro.asp)
 - [HTML Editors](https://www.w3schools.com/html/html_editors.asp)
 - [HTML Basic](https://www.w3schools.com/html/html_basic.asp)
 - [HTML Elements](https://www.w3schools.com/html/html_elements.asp)
 - [HTML Attributes](https://www.w3schools.com/html/html_attributes.asp)
-- [การใช้งานหัวข้อ (Headings <h>)](https://www.w3schools.com/html/html_headings.asp)
-- [การใช้งานเนื้อหา (Paragraphs <p>)](https://www.w3schools.com/html/html_paragraphs.asp)
+- [การใช้งานหัวข้อ (Headings &lt;h&gt;)](https://www.w3schools.com/html/html_headings.asp)
+- [การใช้งานเนื้อหา (Paragraphs &lt;p&gt;)](https://www.w3schools.com/html/html_paragraphs.asp)
 - [การใช้งาน Styles](https://www.w3schools.com/html/html_styles.asp)
 - [การใช้งานตัวหนา ตัวเอียง (Formatting)](https://www.w3schools.com/html/html_formatting.asp)
 - [การอ้างอิ้งบนเว็บ (Quotations)](https://www.w3schools.com/html/html_quotation_elements.asp)
+- [การใช้งาน Comments](https://www.w3schools.com/html/html_comments.asp)
+- สี
+  - [การใช้งานสี](https://www.w3schools.com/html/html_colors.asp)
+  - [RGB](https://www.w3schools.com/html/html_colors_rgb.asp)
+  - [HEX](https://www.w3schools.com/html/html_colors_hex.asp)
+  - [HSL](https://www.w3schools.com/html/html_colors_hsl.asp)
+- [การใช้งาน CSS](https://www.w3schools.com/html/html_css.asp)
+- Links
+  - [วิธี link](https://www.w3schools.com/html/html_links.asp)
+  - [การกำหนดสี link](https://www.w3schools.com/html/html_links_colors.asp)
+  - [กำหนด link ข้อความใน page](https://www.w3schools.com/html/html_links_bookmarks.asp)
+- รูปภาพ
+  - [การใช้งานรูปภาพ](https://www.w3schools.com/html/html_images.asp)
+  - [การกำหนดจุดคลิกบนรูปภาพเพื่อไปหน้าที่กำหนด](https://www.w3schools.com/html/html_images_imagemap.asp)
+  - [กำหนดพื้นหลังต่าง ๆ](https://www.w3schools.com/html/html_images_background.asp)
+  - [การใช้งาน &lt;picture&gt; Element](https://www.w3schools.com/html/html_images_picture.asp)
+- [Favicon หรือ icon](https://www.w3schools.com/html/html_favicon.asp)
+- [กำหนดชื่อ Web](https://www.w3schools.com/html/html_page_title.asp)
+- ตาราง
+  - [การสร้างตาราง](https://www.w3schools.com/html/html_tables.asp)
+  - [กำหนดความหนาและสีของตารางหรือ Border](https://www.w3schools.com/html/html_table_borders.asp)
+  - [กำหนดขนาดของตาราง](https://www.w3schools.com/html/html_table_sizes.asp)
+  - [การใช้งานหัวข้อของตารางกำหนดแนวนอน แนวตั้ง](https://www.w3schools.com/html/html_table_headers.asp)
+  - [กำหนดช่องว่างและระยะห่างระหว่าง Cell](https://www.w3schools.com/html/html_table_padding_spacing.asp)
+  - [การกำหนดหัวข้อ 1 อันหลาย Cell](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
+  - [ใส่สีให้ตาราง](https://www.w3schools.com/html/html_table_styling.asp)
+  - [การใช้ style กับตาราง](https://www.w3schools.com/html/html_table_colgroup.asp#legalcss)
+- Lists
+  - [การใช้งานขีด(-)](https://www.w3schools.com/html/html_lists.asp)
+  - [กำหนดรูปแบบของขีด(-)](https://www.w3schools.com/html/html_lists_unordered.asp)
+  - [การเปลี่ยนจากขีดเป้นตัวเลข](https://www.w3schools.com/html/html_lists_ordered.asp)
+  - [การใช้งานขีดแบบอื่น ๆ](https://www.w3schools.com/html/html_lists_other.asp)
+
 
 
 
