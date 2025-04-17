@@ -42,8 +42,9 @@ W3 Schools
   - [กำหนดรูปแบบของขีด(-)](https://www.w3schools.com/html/html_lists_unordered.asp)
   - [การเปลี่ยนจากขีดเป้นตัวเลข](https://www.w3schools.com/html/html_lists_ordered.asp)
   - [การใช้งานขีดแบบอื่น ๆ](https://www.w3schools.com/html/html_lists_other.asp)
-
-
+- [การใช้งาน block และ inline ความแตกต่างระหว่าง &lt;div&gt; และ &lt;span&gt;](https://www.w3schools.com/html/html_blocks.asp)
+- [การใช้งาน &lt;div&gt; ในการสร้าง container](https://www.w3schools.com/html/html_div.asp)
+- [การใช้งาน Class โดยเรียกผ่าน Attribute](https://www.w3schools.com/html/html_classes.asp)
 
 
 <hr><hr>
