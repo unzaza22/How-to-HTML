@@ -45,6 +45,13 @@ W3 Schools
 - [การใช้งาน block และ inline ความแตกต่างระหว่าง &lt;div&gt; และ &lt;span&gt;](https://www.w3schools.com/html/html_blocks.asp)
 - [การใช้งาน &lt;div&gt; ในการสร้าง container](https://www.w3schools.com/html/html_div.asp)
 - [การใช้งาน Class โดยเรียกผ่าน Attribute](https://www.w3schools.com/html/html_classes.asp)
+- [การ bookmark ด้วย ID และ Links](https://www.w3schools.com/html/html_id.asp)
+- [กำหนด Iframes](https://www.w3schools.com/html/html_iframe.asp)
+- [การใช้งาน Javascript](https://www.w3schools.com/html/html_scripts.asp)
+- [การกำหนดเส้นทางไฟล์หรือ File Paths](https://www.w3schools.com/html/html_filepaths.asp)
+- [การใช้งาน Head Element เช่น &lt;title&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script&gt; และ &lt;base&gt;](https://www.w3schools.com/html/html_head.asp)
+- [การกำหนด layout](https://www.w3schools.com/html/html_layout.asp)
+
 
 
 <hr><hr>
