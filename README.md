@@ -51,6 +51,19 @@ W3 Schools
 - [การกำหนดเส้นทางไฟล์หรือ File Paths](https://www.w3schools.com/html/html_filepaths.asp)
 - [การใช้งาน Head Element เช่น &lt;title&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script&gt; และ &lt;base&gt;](https://www.w3schools.com/html/html_head.asp)
 - [การกำหนด layout](https://www.w3schools.com/html/html_layout.asp)
+- [การตอบสนองของหน้าเว็บไซต์](https://www.w3schools.com/html/html_responsive.asp)
+- [การแสดงผลในลักษณะ code](https://www.w3schools.com/html/html_computercode_elements.asp)
+- [การใช้งานตามความหมายของ Element](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [การใช้งาน style ใน HTML](https://www.w3schools.com/html/html5_syntax.asp)
+- [การใช้งานอักขระพิเศษ](https://www.w3schools.com/html/html_entities.asp)
+- [การใช้งาน Symbols](https://www.w3schools.com/html/html_symbols.asp)
+- [การใช้งาน Emojis](https://www.w3schools.com/html/html_emojis.asp)
+- [Encoding](https://www.w3schools.com/html/html_charset.asp)
+- [การใช้งาน URL](https://www.w3schools.com/html/html_urlencode.asp)
+- [HTML vs XHTML](https://www.w3schools.com/html/html_xhtml.asp)
+
+# HTML Forms
+
 
 
 
