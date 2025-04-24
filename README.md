@@ -63,6 +63,8 @@ W3 Schools
 - [HTML vs XHTML](https://www.w3schools.com/html/html_xhtml.asp)
 
 # HTML Forms
+- [Forms](https://www.w3schools.com/html/html_forms.asp)
+- [Forms Attributes](https://www.w3schools.com/html/html_forms_attributes.asp)
 
 
 
