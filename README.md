@@ -71,7 +71,15 @@ W3 Schools
 - [Form Attributes](https://www.w3schools.com/html/html_form_attributes_form.asp)
 
 # HTML Graphics
+- [HTML Media](https://www.w3schools.com/html/html5_canvas.asp)
+- [HMTL SVG](https://www.w3schools.com/html/html5_svg.asp)
 
+# HTML Media
+- [HTML Media](https://www.w3schools.com/html/html_media.asp)
+- [HTML Video](https://www.w3schools.com/html/html5_video.asp)
+- [HTML Audio](https://www.w3schools.com/html/html5_audio.asp)
+- [HTML Plug-ins](https://www.w3schools.com/html/html_object.asp)
+- [HTML Youtube](https://www.w3schools.com/html/html_youtube.asp)
 
 
 
