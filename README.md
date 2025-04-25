@@ -65,6 +65,13 @@ W3 Schools
 # HTML Forms
 - [Forms](https://www.w3schools.com/html/html_forms.asp)
 - [Forms Attributes](https://www.w3schools.com/html/html_forms_attributes.asp)
+- [Form Elements](https://www.w3schools.com/html/html_form_elements.asp)
+- [Input Types](https://www.w3schools.com/html/html_form_input_types.asp)
+- [Input Attributes](https://www.w3schools.com/html/html_form_attributes.asp)
+- [Form Attributes](https://www.w3schools.com/html/html_form_attributes_form.asp)
+
+# HTML Graphics
+
 
 
 
