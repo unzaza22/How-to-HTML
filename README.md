@@ -84,6 +84,7 @@ W3 Schools
 # HTML APIs
 - [HTML Web APIs](https://www.w3schools.com/html/html5_api_whatis.asp)
 - [HTML GPS](https://www.w3schools.com/html/html5_geolocation.asp)
+- [HTML Drag and Drop](https://www.w3schools.com/html/html5_draganddrop.asp)
 
 
 
