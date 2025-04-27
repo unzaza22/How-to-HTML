@@ -81,6 +81,12 @@ W3 Schools
 - [HTML Plug-ins](https://www.w3schools.com/html/html_object.asp)
 - [HTML Youtube](https://www.w3schools.com/html/html_youtube.asp)
 
+# HTML APIs
+- [HTML Web APIs](https://www.w3schools.com/html/html5_api_whatis.asp)
+- [HTML GPS](https://www.w3schools.com/html/html5_geolocation.asp)
+
+
+
 
 
 
