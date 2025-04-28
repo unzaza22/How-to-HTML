@@ -85,6 +85,10 @@ W3 Schools
 - [HTML Web APIs](https://www.w3schools.com/html/html5_api_whatis.asp)
 - [HTML GPS](https://www.w3schools.com/html/html5_geolocation.asp)
 - [HTML Drag and Drop](https://www.w3schools.com/html/html5_draganddrop.asp)
+- [HTML Web Storage](https://www.w3schools.com/html/html5_webstorage.asp)
+- [HTML Web Workers](https://www.w3schools.com/html/html5_webworkers.asp)
+- [HTML SSE(Server-Sent Events)](https://www.w3schools.com/html/html5_serversentevents.asp)
+
 
 
 
